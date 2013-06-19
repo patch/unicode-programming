@@ -1,11 +1,6 @@
-## encode
+# Encode and decode in Perl 5
 
     use Encode;
 
     $utf8 = encode('UTF-8', $str);
-
-## decode
-
-    use Encode;
-
-    $str = decode('UTF-8', $utf8);
+    $str  = decode('UTF-8', $utf8);
