@@ -1,3 +1,5 @@
+# Unicode normalization in Ruby
+
     require 'unicode';
 
     nfd = Unicode::normalize_D(str)

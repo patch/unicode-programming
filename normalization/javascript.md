@@ -1,3 +1,5 @@
+# Unicode normalization in JavaScript
+
     var unorm = require('unorm');
 
     nfd  = unorm.nfd(str);

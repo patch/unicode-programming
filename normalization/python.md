@@ -1,3 +1,5 @@
+# Unicode normalization in Python
+
     import unicodedata;
 
     nfd  = unicodedata.normalize('NFD', str)

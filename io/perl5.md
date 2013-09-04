@@ -1,19 +1,21 @@
-# I/O
+# I/O encoding in Perl 5
 
-## everything
+## All I/O
+
+All standard streams and filehandles.
 
     use open qw( :encoding(UTF-8) :std );
 
-## input
-
-    open my $fh, '<:encoding(UTF-8)', $file;
-
-## output
-
-    open my $fh, '>:encoding(UTF-8)', $file;
-
-## standard streams
+## Standard streams
 
     binmode STDIN, ':encoding(UTF-8)';
     binmode STDOUT, ':encoding(UTF-8)';
     binmode STDERR, ':encoding(UTF-8)';
+
+## Filehandle input
+
+    open my $fh, '<:encoding(UTF-8)', $file;
+
+## Filehandle output
+
+    open my $fh, '>:encoding(UTF-8)', $file;
