@@ -1,6 +1,8 @@
-# I/O encoding in Perl 6
+# Encoded I/O in Perl 6
 
-All I/O is UTF-8 by default.
+All I/O is UTF-8 by default, decoded to strings (`Str` objects) on input, and
+encoded on output.  Individual streams and filehandles can be handled as
+follows.
 
 ## Standard streams
 
@@ -8,10 +10,11 @@ All I/O is UTF-8 by default.
     $*OUT.encoding = 'UTF-16';
     $*ERR.encoding = 'UTF-16';
 
-## Filehandle input
+## Existing filehandles
 
-    my $fh = open $file, :r, :enc<UTF-16>;
+    $fh.encoding = 'UTF-16';
 
-## Filehandle output
+## New filehandles
 
-    my $fh = open $file, :w, :enc<UTF-16>;
+    my $in_fh  = open $path, :r, :enc<UTF-16>;
+    my $out_fh = open $path, :w, :enc<UTF-16>;

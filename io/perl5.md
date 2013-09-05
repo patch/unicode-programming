@@ -1,21 +1,35 @@
-# I/O encoding in Perl 5
+# Encoded I/O in Perl 5
 
-## All I/O
+All I/O is treated as binary data by default and input as byte strings.  These
+examples set I/O as UTF-8 encoded data, decode it to character strings on input,
+and encode on output.
 
-All standard streams and filehandles.
+## All streams
+
+All standard streams and filehandles.  This does not include command-line
+arguments.
 
     use open qw( :encoding(UTF-8) :std );
 
+Alternately, individual streams and filehandles can be handled as follows.
+
 ## Standard streams
 
-    binmode STDIN, ':encoding(UTF-8)';
+    binmode STDIN,  ':encoding(UTF-8)';
     binmode STDOUT, ':encoding(UTF-8)';
     binmode STDERR, ':encoding(UTF-8)';
 
-## Filehandle input
+## Existing filehandles
 
-    open my $fh, '<:encoding(UTF-8)', $file;
+    binmode $fh, ':encoding(UTF-8)';
 
-## Filehandle output
+## New filehandles
 
-    open my $fh, '>:encoding(UTF-8)', $file;
+    open my $in_fh,  '<:encoding(UTF-8)', $path;
+    open my $out_fh, '>:encoding(UTF-8)', $path;
+
+## Command-line arguments
+
+    use Encode;
+
+    @args = map { decode('UTF-8', $_) } @ARGV;
