@@ -1,8 +1,8 @@
 # Sorting with the UCA in Perl 5
 
-The core module
-[Unicode::Collate](https://metacpan.org/module/Unicode::Collate) is used for
-sorting using the Unicode Collation Algorithm.
+Sorting using the Unicode Collation Algorithm (UCA) is available in the core
+module [Unicode::Collate](https://metacpan.org/module/Unicode::Collate) bundled
+with Perl 5.8 or on CPAN.
 
     use Unicode::Collate;
 
@@ -10,11 +10,11 @@ sorting using the Unicode Collation Algorithm.
 
     @sorted = $collator->sort(@unsorted);
 
-## Specific locale
+## Linguistic tailoring
 
-The core module
-[Unicode::Collate::Locale](https://metacpan.org/module/Unicode::Collate::Locale)
-is used for sorting using the UCA with localization.
+Sorting using the UCA with linguistic tailoring is available in the core module
+[Unicode::Collate](https://metacpan.org/module/Unicode::Collate::Locale) bundled
+with Perl 5.14 or on CPAN.
 
     use Unicode::Collate::Locale;
 
