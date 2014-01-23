@@ -9,27 +9,37 @@ and encode on output.
 All standard streams and filehandles.  This does not include command-line
 arguments.
 
-    use open qw( :encoding(UTF-8) :std );
+```perl
+use open qw( :encoding(UTF-8) :std );
+```
 
 Alternately, individual streams and filehandles can be handled as follows.
 
 ## Standard streams
 
-    binmode STDIN,  ':encoding(UTF-8)';
-    binmode STDOUT, ':encoding(UTF-8)';
-    binmode STDERR, ':encoding(UTF-8)';
+```perl
+binmode STDIN,  ':encoding(UTF-8)';
+binmode STDOUT, ':encoding(UTF-8)';
+binmode STDERR, ':encoding(UTF-8)';
+```
 
 ## Existing filehandles
 
-    binmode $fh, ':encoding(UTF-8)';
+```perl
+binmode $fh, ':encoding(UTF-8)';
+```
 
 ## New filehandles
 
-    open my $in_fh,  '<:encoding(UTF-8)', $path;
-    open my $out_fh, '>:encoding(UTF-8)', $path;
+```perl
+open my $in_fh,  '<:encoding(UTF-8)', $path;
+open my $out_fh, '>:encoding(UTF-8)', $path;
+```
 
 ## Command-line arguments
 
-    use Encode;
+```perl
+use Encode;
 
-    @args = map { decode('UTF-8', $_) } @ARGV;
+@args = map { decode('UTF-8', $_) } @ARGV;
+```

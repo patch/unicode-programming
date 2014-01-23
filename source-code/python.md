@@ -1,3 +1,5 @@
 # UTF-8 source code in Python
 
-    #-*- coding: UTF-8 -*-
+```python
+#-*- coding: UTF-8 -*-
+```

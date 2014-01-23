@@ -4,10 +4,14 @@
 
 The `codes` method is available for strings (`Str` objects).
 
-    $count = $str.codes;
+```perl
+$count = $str.codes;
+```
 
 ## Grapheme clusters
 
 The `graphemes` method is available for strings (`Str` objects).
 
-    $count = $str.graphemes;
+```perl
+$count = $str.graphemes;
+```

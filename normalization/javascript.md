@@ -3,9 +3,11 @@
 Unicode normalization is available in the npm package
 [unorm](https://npmjs.org/package/unorm).
 
-    var unorm = require('unorm');
+```javascript
+var unorm = require('unorm');
 
-    nfd  = unorm.nfd(str);
-    nfc  = unorm.nfc(str);
-    nfkd = unorm.nfkd(str);
-    nfkc = unorm.nfkc(str);
+nfd  = unorm.nfd(str);
+nfc  = unorm.nfc(str);
+nfkd = unorm.nfkd(str);
+nfkc = unorm.nfkc(str);
+```

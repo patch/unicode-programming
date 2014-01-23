@@ -2,4 +2,6 @@
 
 The `bytes` method is available for buffers (`Buf` objects).
 
-    $count = $utf8.bytes;
+```perl
+$count = $utf8.bytes;
+```

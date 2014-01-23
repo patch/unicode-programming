@@ -6,15 +6,21 @@ follows.
 
 ## Standard streams
 
-    $*IN.encoding  = 'UTF-16';
-    $*OUT.encoding = 'UTF-16';
-    $*ERR.encoding = 'UTF-16';
+```perl
+$*IN.encoding  = 'UTF-16';
+$*OUT.encoding = 'UTF-16';
+$*ERR.encoding = 'UTF-16';
+```
 
 ## Existing filehandles
 
-    $fh.encoding = 'UTF-16';
+```perl
+$fh.encoding = 'UTF-16';
+```
 
 ## New filehandles
 
-    my $in_fh  = open $path, :r, :enc<UTF-16>;
-    my $out_fh = open $path, :w, :enc<UTF-16>;
+```perl
+my $in_fh  = open $path, :r, :enc<UTF-16>;
+my $out_fh = open $path, :w, :enc<UTF-16>;
+```
