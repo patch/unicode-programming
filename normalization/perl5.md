@@ -1,5 +1,9 @@
 # Unicode normalization in Perl 5
 
+Unicode normalization is available in the core module
+[Unicode::Normalize](https://metacpan.org/pod/Unicode::Normalize) with Perl 5.8
+and available on CPAN.
+
     use Unicode::Normalize;
 
     $nfd  = NFD($str);

@@ -1,5 +1,8 @@
 # Unicode normalization in JavaScript
 
+Unicode normalization is available in the npm package
+[unorm](https://npmjs.org/package/unorm).
+
     var unorm = require('unorm');
 
     nfd  = unorm.nfd(str);
