@@ -1,9 +1,9 @@
-# Unicode normalization in C#
+# Unicode normalization in C\#
 
 Unicode normalization is available in the core language via the `Normalize`
 method on strings (`String` objects).
 
-```c#
+```csharp
 nfd  = str.Normalize(NormalizationForm.FormD);
 nfc  = str.Normalize(NormalizationForm.FormC);
 nfkd = str.Normalize(NormalizationForm.FormKD);
