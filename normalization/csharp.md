@@ -1,4 +1,4 @@
-# Unicode normalization in C\#
+# Unicode normalization in C♯
 
 Unicode normalization is available in the core language via the `Normalize`
 method on strings (`String` objects).
