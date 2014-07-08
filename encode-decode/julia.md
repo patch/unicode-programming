@@ -8,6 +8,6 @@ bytes in the specified encoding and returns a string.
 ```julia
 using UnicodeExtras
 
-utf16 = encode(str,   'UTF-16')
-str   = decode(utf16, 'UTF-16')
+utf16 = encode(str,   "UTF-16")
+str   = decode(utf16, "UTF-16")
 ```
