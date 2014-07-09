@@ -78,3 +78,11 @@ language.
 * code indentation: four spaces
 * naming convention: single-word lower-case names
 * string literals: preference for single quotes over double quotes
+
+---
+
+© 2013–2014 Nick Patch
+
+[![Creative Commons License](http://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
