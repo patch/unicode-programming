@@ -5,7 +5,7 @@ Unicode normalization is available in the core module
 with Python 2.3.
 
 ```python
-import unicodedata;
+import unicodedata
 
 nfd  = unicodedata.normalize('NFD', str)
 nfc  = unicodedata.normalize('NFC', str)
