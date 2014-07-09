@@ -49,6 +49,7 @@ free to add or improve examples and new languages.
   [Perl 6](normalization/perl6.md),
   [PHP](normalization/php.md),
   [Python](normalization/python.md),
+  [R](normalization/r.md),
   [Ruby](normalization/ruby.md)
 
 7. **Letter casing**
@@ -59,6 +60,7 @@ free to add or improve examples and new languages.
   [Perl 6](letter-casing/perl6.md),
   [PHP](letter-casing/php.md),
   [Python](letter-casing/python.md),
+  [R](letter-casing/r.md),
   [Ruby](letter-casing/ruby.md)
 
 8. **Sorting with the UCA**
