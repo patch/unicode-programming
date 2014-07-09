@@ -5,7 +5,7 @@ Unicode normalization is available in the gem packages
 [unicode_utils](http://rubygems.org/gems/unicode_utils).
 
 ```ruby
-require 'unicode';
+require 'unicode'
 
 nfd  = Unicode::normalize_D(str)
 nfc  = Unicode::normalize_C(str)
@@ -16,7 +16,7 @@ nfkc = Unicode::normalize_KC(str)
 or
 
 ```ruby
-require 'unicode_utils';
+require 'unicode_utils'
 
 nfd  = UnicodeUtils.nfd(str)
 nfc  = UnicodeUtils.nfc(str)
