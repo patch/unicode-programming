@@ -8,5 +8,5 @@ to count code points.
 ```javascript
 var puny = require('punycode');
 
-$count = puny.ucs2.decode(str).length;
+count = puny.ucs2.decode(str).length;
 ```
