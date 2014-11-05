@@ -36,7 +36,8 @@ free to add or improve examples and new languages.
   [Julia](count-characters/julia.md),
   [Perl 5](count-characters/perl5.md),
   [Perl 6](count-characters/perl6.md),
-  [PHP](count-characters/php.md)
+  [PHP](count-characters/php.md),
+  [Ruby](count-characters/ruby.md)
 
 6. **Unicode normalization**
 
