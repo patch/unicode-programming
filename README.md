@@ -71,6 +71,12 @@ free to add or improve examples and new languages.
   [Python](sorting/python.md),
   [Ruby](sorting/ruby.md)
 
+## TODO
+
+* Unicode Character Database
+* Unicode regular expressions
+* CLDR
+
 ## Style guide
 
 The main goal is to have a cohesive style where examples in different languages
