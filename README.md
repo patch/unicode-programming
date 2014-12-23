@@ -52,7 +52,8 @@ free to add or improve examples and new languages.
   [Python](normalization/python.md),
   [R](normalization/r.md),
   [Ruby](normalization/ruby.md),
-  [Tcl](normalization/tcl.md)
+  [Tcl](normalization/tcl.md),
+  [VB](normalization/vb.md)
 
 7. **Letter casing**
 
