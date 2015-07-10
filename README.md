@@ -92,7 +92,7 @@ language.
 
 ---
 
-© 2013–2014 Nick Patch
+© 2013–2015 Nick Patch
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
