@@ -10,8 +10,8 @@ $count = $str.codes;
 
 ## Grapheme clusters
 
-The `graphemes` method is available for strings (`Str` objects).
+The `chars` method is available for strings (`Str` objects).
 
 ```perl
-$count = $str.graphemes;
+$count = $str.chars;
 ```
